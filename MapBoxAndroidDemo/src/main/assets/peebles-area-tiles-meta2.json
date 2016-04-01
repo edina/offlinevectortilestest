@@ -1,0 +1,233 @@
+{
+  "center": [-3.2791, 55.747, 13],
+  "format": "pbf",
+  "maxzoom": 14,
+  "minzoom": 0,
+  "name": "osm2pgsql-osm-bright",
+  "bounds": [-3.4003, 55.5504, -2.7191, 55.8876],
+  "profile": "mercator",
+  "basename": "peebles3",
+  "tilejson": "2.0.0",
+  "scheme": "xyz",
+  "tiles": ["http://localhost:8080/peeblesarea/{z}/{x}/{y}.pbf"],
+  "grids": ["http://localhost:8080/peeblesarea/{z}/{x}/{y}.grid.json"],
+  "vector_layers": [{
+    "id": "gt_red_labels",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "ogc_fid": "Number",
+      "routelabel": "String"
+    }
+  }, {
+    "id": "gt_red",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "ogc_fid": "Number",
+      "routelabel": "String"
+    }
+  }, {
+    "id": "route",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "ogc_fid": "Number",
+      "id": "String",
+      "highway": "String",
+      "source": "String",
+      "routelabel": "String",
+      "maxspeed": "String",
+      "barrier": "String",
+      "landuse": "String",
+      "ref": "String",
+      "natural": "String",
+      "oneway": "String",
+      "fixme": "String",
+      "lanes": "String",
+      "surface": "String",
+      "foot": "String",
+      "maxspeed_t": "String",
+      "mtb_scale": "String",
+      "layer": "String",
+      "waterway": "String",
+      "lit": "String",
+      "bridge": "String",
+      "source_nam": "String",
+      "building": "String",
+      "wood": "String",
+      "bicycle": "String",
+      "railway": "String",
+      "source_max": "String",
+      "fixme_nsl": "String",
+      "motor_vehi": "String",
+      "amenity": "String",
+      "tracktype": "String",
+      "historic": "String",
+      "route": "String",
+      "access": "String",
+      "addr_city": "String"
+    }
+  }, {
+    "id": "contours",
+    "description": "contours",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "ogc_fid": "Number",
+      "id": "String",
+      "feat_type": "String",
+      "sub_type": "String",
+      "prop_value": "Number"
+    }
+  }, {
+    "id": "landuse",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "class": "String",
+      "z_order": "Number",
+      "way_area": "Number"
+    }
+  }, {
+    "id": "waterway",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "class": "String"
+    }
+  }, {
+    "id": "water",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number"
+    }
+  }, {
+    "id": "aeroway",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "type": "String"
+    }
+  }, {
+    "id": "building",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number"
+    }
+  }, {
+    "id": "road",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "class": "String",
+      "is": "String"
+    }
+  }, {
+    "id": "admin",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "admin_level": "String",
+      "maritime": "Number",
+      "disputed": "Number"
+    }
+  }, {
+    "id": "country_label",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "name_en": "String",
+      "scalerank": "Number",
+      "code": "String"
+    }
+  }, {
+    "id": "place_label",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "name_en": "String",
+      "type": "String",
+      "ldir": "String",
+      "localrank": "Number"
+    }
+  }, {
+    "id": "poi_label",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "name": "String",
+      "name_en": "String",
+      "scalerank": "Number",
+      "localrank": "Number",
+      "maki": "String"
+    }
+  }, {
+    "id": "road_label",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "osm_id": "Number",
+      "shield": "String",
+      "name_en": "String",
+      "ref": "String",
+      "reflen": "Number",
+      "len": "Number",
+      "class": "String"
+    }
+  }, {
+    "id": "data",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "ogc_fid": "Number",
+      "dn": "Number"
+    }
+  }, {
+    "id": "data_1",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "ogc_fid": "Number",
+      "dn": "Number"
+    }
+  }, {
+    "id": "data_2",
+    "description": "",
+    "minzoom": 0,
+    "maxzoom": 22,
+    "fields": {
+      "ogc_fid": "Number",
+      "dn": "Number"
+    }
+  }],
+  "zoom": 7,
+  "tileUrl": "http://localhost:8080/peeblesarea/13/4021/2561.pbf",
+  "scale": 1
+}
